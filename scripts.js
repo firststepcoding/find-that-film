@@ -26,18 +26,18 @@ function loadDataFromAPI(searchString) {
 function processAPIResults(data) {
   var poster_base_url = "https://image.tmdb.org/t/p/w500";
   if (data && data.results.length > 0) {
-      var firstResult = data.results[0];
-      
-      $('.results').fadeIn(2000);
-      $('#title').html(firstResult.title);
-      $('#poster').attr("src", poster_base_url + firstResult.poster_path);
-      $('#releasedate').html("Released on " + firstResult.release_date);
-      $('#synopsis').html(firstResult.overview);
-      $('#starring').html("");
+    var firstResult = data.results[0];
+
+    $('.results').fadeIn(2000);
+    $('#title').html(firstResult.title);
+    $('#poster').attr("src", poster_base_url + firstResult.poster_path);
+    $('#releasedate').html("Released on 1/1/2000");
+    $('#synopsis').html(firstResult.overview);
+    $('#starring').html("");
   } else {
-      $('#title').html("Sorry, we weren't able to find the film you were looking for. Maybe you made a mistake?");
-      $('#releaseyear').html("");
-      $('#starring').html("");
-      $('#synopsis').html("");
+    $('#title').html("Sorry, we weren't able to find the film you were looking for. Maybe you made a mistake?");
+    $('#releaseyear').html("");
+    $('#starring').html("");
+    $('#synopsis').html("");
   }
 }
