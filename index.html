@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Find that Film</title>
+  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="scripts.js"></script>
+
+  <div class="col-xs-12">
+    <div class="row">
+      <div id="main" class="col-xs-12 col-md-8 col-md-offset-2">
+        <h1>Movie Search</h1>
+        <div class="results">
+          <img id="poster" />
+          <br/>
+          <p id="title"></p>
+          <br/>
+          <p id="releasedate"></p>
+          <br/>
+          <p id="starring"></p>
+          <br/>
+          <p id="synopsis"></p>
+          <br/>
+          <div id="inputFields">
+            <input type="text" placeholder="type your film title here..." id="userInput">
+            <br>
+            <input type="button" value="Find that Film!" id="findThatFilm">
+          </div>
+          <p id="footer">Built with TheMovieDB.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

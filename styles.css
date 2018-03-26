@@ -1,0 +1,59 @@
+body {
+  background: url('https://images.unsplash.com/photo-1458053688450-eef5d21d43b3') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#main {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: block;
+  margin-top: 40px;
+  background: white;
+  color: black;
+}
+h1 {
+  text-align: center;
+  font-family: "Arial";
+  font-size: 5em;
+  color: green;
+}
+
+#footer {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'roboto', sans-serif;
+  padding-top: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+#inputFields {
+  text-align: center;
+}
+#findThatFilm {
+  background: #e34234;
+  color: white;
+  width: 30%;
+  border-radius:10px;
+  height: 20%;
+  margin-top: 15px;
+}
+#searchForFilm:hover {
+  background: black;
+  color: white;
+}
+#userInput {
+  width: 300px;
+  background: none;
+  padding: 25px;
+  font-size: 1.5em;
+  color: black;
+}
+.results p {
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+  font-size: 1.5em
+}
