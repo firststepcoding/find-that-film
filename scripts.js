@@ -9,7 +9,6 @@ function findMovies() {
   // Read the text from an HTML element with an id of "userInput"
   var inputString = $('#userInput').val();
   // Make a call to the OMDB API with the search String we collected from the user input.
-  loadDataFromAPI(inputString);
 }
 
 function loadDataFromAPI(searchString) {
